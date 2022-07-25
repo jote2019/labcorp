@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test-chrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+       <class name="com.lapCorpTaskTest.stepDefinition"/>
+      <class name="com.lapcorptaskApi.Com_lapcorpApi_PostRequest"/>
+      <class name="com.lapcorptaskApi.Com_lapcorpApi_GetRequest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test-firefox">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.lapCorpTaskTest.stepDefinition"/>
+      <class name="com.lapcorptaskApi.Com_lapcorpApi_PostRequest"/>
+      <class name="com.lapcorptaskApi.Com_lapcorpApi_GetRequest"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

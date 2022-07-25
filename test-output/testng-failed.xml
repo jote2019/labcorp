@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test-chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.lapCorpTaskTest.stepDefinition">
+        <methods>
+          <include name="user_openApp"/>
+          <include name="user_clickOnRetutrnTosearchPage"/>
+          <include name="user_verifiedSuggestedToolAsSElenium"/>
+          <include name="user_VerifiedJobTitleLocationAndId"/>
+          <include name="user_clicksOnCareerLink"/>
+          <include name="user_openApp1"/>
+          <include name="tearDown"/>
+          <include name="user_verifiedJobTitleLocationANDID"/>
+          <include name="user_verifiedFirstSentenceThirdParagraph"/>
+          <include name="user_verifiedSearchForJobPage"/>
+          <include name="user_"/>
+          <include name="initializeDriver"/>
+          <include name="user_verifiedThirdRequirementAs5Yrs"/>
+          <include name="user_clickOnApplyNowButton"/>
+        </methods>
+      </class> <!-- com.lapCorpTaskTest.stepDefinition -->
+      <class name="com.lapcorptaskApi.Com_lapcorpApi_GetRequest">
+        <methods>
+          <include name="get_UserInfo"/>
+        </methods>
+      </class> <!-- com.lapcorptaskApi.Com_lapcorpApi_GetRequest -->
+      <class name="com.lapcorptaskApi.Com_lapcorpApi_PostRequest">
+        <methods>
+          <include name="PostRequest"/>
+        </methods>
+      </class> <!-- com.lapcorptaskApi.Com_lapcorpApi_PostRequest -->
+    </classes>
+  </test> <!-- Test-chrome(failed) -->
+  <test thread-count="5" name="Test-firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.lapCorpTaskTest.stepDefinition">
+        <methods>
+          <include name="user_openApp"/>
+          <include name="user_clickOnRetutrnTosearchPage"/>
+          <include name="user_verifiedSuggestedToolAsSElenium"/>
+          <include name="user_VerifiedJobTitleLocationAndId"/>
+          <include name="user_clicksOnCareerLink"/>
+          <include name="user_openApp1"/>
+          <include name="tearDown"/>
+          <include name="user_verifiedJobTitleLocationANDID"/>
+          <include name="user_verifiedFirstSentenceThirdParagraph"/>
+          <include name="user_verifiedSearchForJobPage"/>
+          <include name="user_"/>
+          <include name="initializeDriver"/>
+          <include name="user_verifiedThirdRequirementAs5Yrs"/>
+          <include name="user_clickOnApplyNowButton"/>
+        </methods>
+      </class> <!-- com.lapCorpTaskTest.stepDefinition -->
+      <class name="com.lapcorptaskApi.Com_lapcorpApi_GetRequest">
+        <methods>
+          <include name="get_UserInfo"/>
+        </methods>
+      </class> <!-- com.lapcorptaskApi.Com_lapcorpApi_GetRequest -->
+      <class name="com.lapcorptaskApi.Com_lapcorpApi_PostRequest">
+        <methods>
+          <include name="PostRequest"/>
+        </methods>
+      </class> <!-- com.lapcorptaskApi.Com_lapcorpApi_PostRequest -->
+    </classes>
+  </test> <!-- Test-firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
