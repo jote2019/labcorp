@@ -38,7 +38,7 @@ import org.openqa.selenium.WebDriver;
 			
 			
 			if(browserName.equals("chrome")) {
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\mires\\eclipse-workspace\\lapCorpTas\\Drivers\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "./Drivers\\chromedriver.exe");
 			     driver= new ChromeDriver();
 			}
 			else if(browserName.equals("firefox")) {
